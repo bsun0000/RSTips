@@ -1,0 +1,16 @@
+[
+{
+  "modid": "RSTips",
+  "name": "RSTips Mod",
+  "description": "RedServer client-side game tips.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://redserver.su/",
+  "updateUrl": "",
+  "authorList": ["BlackSun"],
+  "credits": "",
+  "logoFile": "assets/rstips/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
