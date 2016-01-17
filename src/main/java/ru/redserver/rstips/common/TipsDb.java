@@ -44,7 +44,7 @@ public class TipsDb {
     }
 
     public static String getRandomMessage() {
-        return getFormatted((int)(Math.random() * list.size()));
+        return getFormatted((int)(Math.random() * (size() - 1))); // Упс, забыл про -1
     }
 
     public static String getNextMessage() {
