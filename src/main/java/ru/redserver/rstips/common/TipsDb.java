@@ -49,7 +49,7 @@ public class TipsDb {
 
     public static String getNextMessage() {
         Config.lastUsed++;
-        if (Config.lastUsed >= (size() - 1)) {
+        if (Config.lastUsed > (size() - 1)) {
             Config.lastUsed = 0;
         }
         Config.save();
